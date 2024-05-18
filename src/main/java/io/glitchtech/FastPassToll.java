@@ -4,6 +4,7 @@ public class FastPassToll {
     private String fastPassId;
     private String stationId;
     private Float amountPaid;
+    private String status;
 
     public FastPassToll() {
     }
@@ -30,6 +31,14 @@ public class FastPassToll {
 
     public void setAmountPaid(Float amountPaid) {
         this.amountPaid = amountPaid;
+    }
+
+    public String getStatus() {
+        return this.status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
     }
 
 }
